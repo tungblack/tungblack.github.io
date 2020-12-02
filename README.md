@@ -1,6 +1,6 @@
-## T-Rootfs (Vietnam)
+## Rootfs (Vietnam)
 
-This tweak can be installed with Cydia via my [Tungblack's Repository](https://tungblack.github.io/ftp/)
+This tweak can be installed with Cydia via my [Tungblack's Repository](https://tungdev.github.io/ftp/)
 
 
 ## License
