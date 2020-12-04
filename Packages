@@ -31,24 +31,6 @@ MD5sum: 0ff766fb2c6d454137c761012233badc
 SHA1: bb05b1d72e05633b7c9b764ac40fd0d58897c92f
 SHA256: a1f274579f194e25f09970f7a6fadf75dcb8a91ff4e6cc8b95f4206cc2cc71b8
 
-Package: com.cokepokes.appstoreplusplus
-Version: 0.9.9-9
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/Tweaks/com.cokepokes.appstoreplusplus_0.9.9-9_iphoneos-arm.deb
-Size: 1473790
-MD5sum: d7f78d9c85246c3e4a7605f34b45db9c
-SHA1: b659e23287a9f091942bf8498c630bce1dd4dd45
-SHA256: b96d493e7ebd19aedcb1aebaf4b5749fed58c45dcc5087c10108c5009bc9edd0
-Section: Tweaks
-Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
-Author: CokePokes
-Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Name: AppStore++
-
 Package: com.tungblack.zalonoads
 Name: Zalo Ads hide
 Depends: mobilesubstrate
