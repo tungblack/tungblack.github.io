@@ -49,24 +49,6 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
-Package: me.alfhaily.adblockforyoutube
-Version: 1.0.7
-Architecture: iphoneos-arm
-Maintainer: Majd Alfhaily <freemanrepo@me.com>
-Depends: firmware (>= 8.0)
-Filename: ./debs/Tweaks/me.alfhaily.adblockforyoutube_1.0.7.deb
-Size: 46578
-MD5sum: 0da9477fed37688be32978aa98ef452c
-SHA1: 1b9ebdf775f71a57f13723963150c91a493886f6
-SHA256: 417a3bc157cdf4584c0f053583f1b11cb6380f8fccb8821303868ffe38d1236d
-Section: Tweaks
-Priority: optional
-Description: Block YouTube Ads and Video Ads
-Author: Majd Alfhaily
-Depiction: http://apt.alfhaily.me/depictions/AdBlockForYouTube
-Dev: freemanrepo
-Name: AdBlock for YouTube
-
 Package: com.tungblack.zalonoads
 Name: Zalo Ads hide
 Depends: mobilesubstrate
