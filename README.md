@@ -1,6 +1,6 @@
 ## Tungblack (Vietnam)
 
-This tweak can be installed with Cydia via my [Tungblack Framework](https://tungblack.github.io/ftp/)
+Discord Server (https://discord.com/invite/jb)
 
 
 ## License
