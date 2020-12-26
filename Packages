@@ -1,5 +1,5 @@
 Package: com.tungblack.sileovn
-Name: Sileo (Ti?ng Vi?t)
+Name: Sileo (Tiếng Việt)
 Version: 1.0.9
 Section: Addons
 Architecture: iphoneos-arm
@@ -7,7 +7,7 @@ Depends: org.coolstar.sileo
 Depiction: https://tungblack.github.io/
 Maintainer: Tungblack <daotunglam21@gmail.com>
 Author: Tungblack <daotunglam21@gmail.com>
-Description: Thêm ti?ng vi?t cho Trình Qu?n Lý Gói Sileo
+Description: Thêm tiếng việt cho Trình Quản Lý Gói Sileo
 Filename: ./debs/Tweaks/com.tungblack.sileovn.deb
 Size: 6300
 MD5sum: 698ee69149f196cc8442708a7495815e
