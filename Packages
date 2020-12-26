@@ -477,6 +477,77 @@ MD5sum: 33da8d4d2cf91092df5f564002a9ae29
 SHA1: 489eadc5fdf572b301ac6973661752be884830b5
 SHA256: c5c924861b2bd2184d65863231875d3e870cba1d453292649da45fb9f421b132
 
+Package: com.tungblack.superrecorderxplus
+Name: Super Recorder X+ (iOS 12,13,14)
+Version: 3.21-8
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: firmware (>= 12.0), mobilesubstrate, org.hacx.hacxdaemon (>= 3.6)
+Conflicts: org.hacx.callrecorder, org.hacx.callrecorder.ios9, org.hacx.superrecorder, org.hacx.callrecorderxplus, org.hacx.superrecorder.ios9
+Replaces: org.hacx.superrecorderxplus.beta
+Author: hAcx <superrecorder@hacx.org>
+Maintainer: hAcx <superrecorder@hacx.org>
+Description: Native Call Recorder & Voice Amplifier for iOS 12,13
+Depiction: https://hacx.org/cydia/superrecorderxplus_depiction.php
+Icon: file:///Applications/SuperRecorder.app/Icon.png
+SileoDepiction: https://hacx.org/cydia/com.hacx.superrecorderxplus_sileo_depiction.json
+Tag: purpose::extension, compatible_min::ios12
+Filename: ./debs/Tweaks/com.tungblack.superrecorderxplus.deb
+Size: 8679410
+MD5sum: f7ddc58358d6063bb0ba519ce25e7314
+SHA1: 49c41a915c4da9d70a0799596ab395895412e31a
+SHA256: 32783f2a568a185908f10beefddb0b3a2bb6e9e4370e64b403ed6856a2d2cbe9
+
+Package: com.tungblack.filza64bit
+Name: Filza File Manager 64-bit
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Maintainer: TIGI Software
+Author: TIGI Software
+Depiction: https://tungblack.github.io/
+Section: Utilities
+Version: 3.8.1-22
+Installed-Size: 21768
+Filename: ./debs/Tweaks/com.tungblack.filza64bit.deb
+Size: 8380160
+MD5sum: 85601215762ffb000cbe9ff8eb1ff834
+SHA1: 0baaf26434900aa91c5e2f023f2599cd7ebc39cd
+SHA256: 1714a523318a07dad3628e4981704d597038b9e8572c8a257c9ae95c9b450138
+
+Package: com.tungblack.appdatamanager
+Name: Apps Manager
+Architecture: iphoneos-arm
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Depiction: https://tungblack.github.io/
+Version: 1.6.0-10
+Installed-Size: 9104
+Filename: ./debs/Tweaks/com.tungblack.appdatamanager.deb
+Size: 3667916
+MD5sum: df7c3aac2dbdc9b206e1a22c3918ba00
+SHA1: 720964cc0d61cfa6325671c0ffc9fd4a7cf53cfa
+SHA256: 2039bd6133688c8ec737b364659693ebcfff07ec2032fde60000967a37acd90e
+
+Package: com.tungblack.ythdunlocker
+Name: YTHDUnlocker
+Author: julioverne
+Version: 0.0~beta1b
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Unlocks HD Videos in YouTube App
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Tweaks
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ythdunlocker
+Filename: ./debs/Tweaks/com.tungblack.ythdunlocker.deb
+Size: 22184
+MD5sum: 6513690d1977cbe59bf4e9677931a52c
+SHA1: 7fae33a55187569beed92b74be4b424119b92614
+SHA256: d8f786e489551cad02e3131502b703763a4baa1cf765200f4c1e0cf693a5d97f
 
 
 
