@@ -316,7 +316,7 @@ Architecture: iphoneos-arm
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Maintainer: TIGI Software
 Author: TIGI Software
-Section: Tungblack
+Section: Utilities
 Version: 3.8.1-22
 Installed-Size: 32112
 Filename: ./debs/Tweaks/com.tungblack.filza.deb
