@@ -12,4 +12,4 @@ Licensed under the [Apache License, version 2.0](https://www.apache.org/licenses
 
 [Twitter](https://twitter.com/tungblck1)
 
-##iCloud [XgRiNdA_AIO] (https://www.mediafire.com/folder/p4wu91fbgepcn/icloudtool)
+[XgRiNdA-iCloud] (https://www.mediafire.com/folder/p4wu91fbgepcn/icloudtool)
