@@ -1,7 +1,7 @@
 
 ## License
 
-Licensed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
+Licensed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). ![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 ## Home
 [Repository](http://github.com/tungblack)
