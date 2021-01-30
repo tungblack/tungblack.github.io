@@ -1,6 +1,5 @@
 
-## ![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)
-[![Tungblack Developer](https://img.shields.io/badge/Tungblack-Developer-blue.svg)
+## ![license](https://img.shields.io/badge/license-MIT-brightgreen.svg) ![Tungblack Developer](https://img.shields.io/badge/Tungblack-Developer-blue.svg)
 
 Licensed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). 
 ## Home
