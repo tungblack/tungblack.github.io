@@ -196,22 +196,6 @@ MD5sum: 979c1973c503b9eb4e9e1151d97c4421
 SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
 SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
 
-Package: com.rpgfarm.a-bypass
-Name: A-Bypass
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast
-Architecture: iphoneos-arm
-Description: Super Jailbreak detection bypass!
-Maintainer: Baw Appie <pp121324@gmail.com>
-Author: Baw Appie <pp121324@gmail.com>
-Section: Tweaks
-Version: 1.4.4
-Installed-Size: 784
-Filename: ./debs/Tweaks/com.rpgfarm.a-bypass.deb
-Size: 85010
-MD5sum: f5b40b59041c6e150b94db25ff0961f2
-SHA1: 4fe3962b95a13144d4610cd32bd0cf1008767ce6
-SHA256: 0cc6d6e2c33d68586b3ed44cc20f29b4dbd3242a18b79d930211a302e75daaeb
-
 Package: com.rpgfarm.libaptoast
 Name: libAPToast
 Architecture: iphoneos-arm
@@ -247,7 +231,6 @@ MD5sum: b5b4ec4fb7b8ec66982863e17418d5b1
 SHA1: 5c10ebf417d324244da1a36d936bb039038e1da9
 SHA256: d4189f92aaf3f9dbc1a691309ce99addcdd0982ae3c820a2408dd58143f5918a
 
-
 Package: com.tungblack.wifilist
 Name: WiFi List
 Architecture: iphoneos-arm
@@ -264,7 +247,6 @@ Size: 924656
 MD5sum: 4b3b59789d4d7024cb150dae24cb0aaa
 SHA1: 20f8d4e5d7bcea719199186df8ab23279d74a32b
 SHA256: e7e60aca887a085ad1d98d090785e7bf2bf8deedf0d496d3dd22fc65bf3e8d82
-
 
 Package: com.tungblack.adblockforyoutube
 Name: AdBlock for YouTube
@@ -283,29 +265,6 @@ Size: 46580
 MD5sum: 013e05151a12a1a36c9866700f7198b9
 SHA1: 72f4e7f09712ebd7df2771e2fad7387eaedfee93
 SHA256: dc5acaa8f84f7ca89e95d03cfadf69dffa33e3e8594c0662ac8ca5b79bf9d535
-
-
-Package: com.tungblack.appstoreplusplus
-Name: AppStore++
-Version: 0.9.13-2
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
-Section: Tweaks
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Replaces:
-Priority: optional
-Architecture: iphoneos-arm
-Author: Tungblack
-dev:
-Homepage:
-Depiction: https://tungblack.github.io/
-Maintainer: CokePokes
-Icon:
-Filename: ./debs/Tweaks/com.tungblack.appstoreplusplus.deb
-Size: 680168
-MD5sum: ae8de308fa3d63e98945536f3ecf970a
-SHA1: e0605e225e9dbc660c8f2099824e4865d6d89e3f
-SHA256: 98fd8a8d96488e989efe2066f9430381c82f3e5fee854009a71964f4c3f1ab20
 
 
 Package: com.tungblack.filza
@@ -549,6 +508,136 @@ MD5sum: 6513690d1977cbe59bf4e9677931a52c
 SHA1: 7fae33a55187569beed92b74be4b424119b92614
 SHA256: d8f786e489551cad02e3131502b703763a4baa1cf765200f4c1e0cf693a5d97f
 
+Package: com.tungblack.appstoreplusplus
+Name: AppStore++
+Version: 0.9.14-2
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-14.whatever
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Replaces:
+Priority: optional
+Architecture: iphoneos-arm
+Author: CokePokes
+dev:
+Homepage:
+Depiction: https://tungblack.github.io/
+Maintainer: Tungblack
+Icon:
+Filename: ./debs/Tweaks/com.tungblack.appstoreplusplus_0.9.14-2.deb
+Size: 1237014
+MD5sum: 023fb714949c08822c2db299f487cdf7
+SHA1: 7c6cc2ead0418491d984913c4034560179dddc95
+SHA256: 11dbe2da7fb3c9edc49adb98dae8ce4cea9857d1d1552ec0f437d7829a6d688d
+
+Architecture: iphoneos-arm
+Package: com.tungblack.killx
+Name: KillX
+Version: 1.2
+Depiction: https://tungblack.github.io/
+Icon: https://cemck.github.io/repo/assets/com.cemck.killx/icon.png
+Description: One swipe to kill them all!
+Homepage: https://cemck.github.io/repo
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader
+Conflicts: com.cemck.killx-pro
+Author: cemck <cem_ck@icloud.com>
+Maintainer: cemck <cem_ck@icloud.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: ./debs/Tweaks/com.tungblack.killx.deb
+Size: 79862
+MD5sum: 5b90091a3d2c061d20ecd75abf8ac40a
+SHA1: 621a76090fadf7815857b7d18278cb2d09f8dbb4
+SHA256: 527d9908ad070b48864687b8b7cbfa314d990baf3e1698e78636d9e5d7ae4905
+
+Package: com.tungblack.a-bypass
+Name: A-Bypass
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Architecture: iphoneos-arm
+Depiction: http://tungblack.github.io/
+Description: Super Jailbreak detection bypass!
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Version: 1.5.2
+Installed-Size: 844
+Filename: ./debs/Tweaks/com.tungblack.a-bypass.deb
+Size: 160786
+MD5sum: 9304ee36049ea2ec93f84f36e0acf6f0
+SHA1: 78ce50d4502362e0a6d3b2e6640c73596168b918
+SHA256: 0f1ad69439d451150db5e98e7b95bb00fb8eb8ca61872315b8e5c911a335fdc2
+
+Package: com.artikus.unitether
+Name: UniTether
+Depends: mobilesubstrate, coreutils, coreutils-bin
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depiction: http://tungblack.github.io/
+Description: A semi-untether? Maybe...
+Maintainer: ArtikusHG
+Author: ArtikusHG
+Section: Tweaks
+Filename: ./debs/Tweaks/com.tungblack.unitether.deb
+Size: 43690
+MD5sum: 265a926b8e0acc41294c6e7cc8dea968
+SHA1: 0d0d0c1a3a6a49b39830321bf063feb5986a4d9d
+SHA256: 15558e3f4dbb9a1284f276ff58a1dd4052306bce68f658ed2e295ca4b647fcff
+
+Package: com.tungblack.facebookdarkmode
+Name: FacebookDarkMode
+Version: 3.1.2
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 13.0), org.thebigboss.libcolorpicker, preferenceloader, com.foxfort.foxforttools (>= 1.1.2), com.foxfort.libfoxfortsplash, com.foxfort.libfoxfortutils (>= 1.1.4)
+Depiction: http://tungblack.github.io/
+Installed-Size: 896
+Author: FoxfortMobile
+Maintainer: FoxfortMobile
+Description: Dark mode for Facebook
+Icon: file:///Library/PreferenceBundles/facebookdarkmodesettings.bundle/icon@3x.png
+Filename: ./debs/Tweaks/com.tungblack.facebookdarkmode.deb
+Size: 271218
+MD5sum: c4f91fe437833d49999e28de4edac54d
+SHA1: 3fcdb581a2e0ad8b7fe1c0748ca8ef86eb825989
+SHA256: 2f84054ea7e11fe797c589fff1080262f40bbde920f14948bfbe1c0884a20c6b
+
+Package: com.tungblack.safariplus
+Name: Safari Plus
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.0) | firmware (<<14.0)
+Architecture: iphoneos-arm
+Description: Various enhancements to Safari!
+Depiction: https://tungblack.github.io/
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Homepage: https://opa334.github.io/
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: Tweaks
+Version: 1.7.14-7
+Installed-Size: 5500
+Filename: ./debs/Tweaks/com.tungblack.safariplus.deb
+Size: 1969656
+MD5sum: 90a5735b4f942bea4263f454f913c7ae
+SHA1: 20b5bbd7270d047a2551323b1650636b3f04bfec
+SHA256: bcaec1c2ef0b6284e1685ca25dbc88dbae47dc114ec7d9d207473a094ef44471
+
+Package: com.foxfort.libfoxfortutils
+Name: libfoxfortutils
+Version: 1.1.6
+Section: System
+Architecture: iphoneos-arm
+Depends: firmware (>= 11.0), com.rpetrich.rocketbootstrap (>> 1.0.6)
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof
+Installed-Size: 1252
+Author: FoxfortMobile
+Maintainer: FoxfortMobile
+Description: Basic utilities for Foxfort tweaks
+Tag: role::developer
+Filename: ./debs/Tweaks/com.foxfort.libfoxfortutils.deb
+Size: 490648
+MD5sum: 8469be0a7e73bda1e782967fcf4a6eb2
+SHA1: 7262ccfa1d1b46520b203c0338bb6a0443f7194d
+SHA256: f7f2d782bc90a6f8df17da16025dab75b86528a4ef15d5cbe5a700f073de8210
 
 
 
