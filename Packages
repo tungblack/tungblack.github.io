@@ -750,9 +750,75 @@ MD5sum: da5e951d112c2026862588f3e4c69175
 SHA1: ced7213c7ca502acd903bec8a6207eed93e10d54
 SHA256: 188e1fa39ab8a512011d41818a66f6790ef2ded78720ffe7ae03ac52b0679eb2
 
+Package: kr.xsf1re.flyjbx
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb (<<1.2.5)
+Filename: ./debs/Tweaks/kr.xsf1re.flyjbx_1.2.5.deb
+Size: 766132
+MD5sum: 050946345f372683c225b621789994f3
+SHA1: 3ac123b3e38f6d6d51013c20b942ef26cb6b4e44
+SHA256: 7c2af316eeab63ffeea78464d7ce4dbf506c85b45e52ce2d17704699b34ab379
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Name: FlyJB X
 
+Package: re.frida.server
+Name: Frida for pre-A12 devices
+Version: 12.10.2
+Installed-Size: 39248
+Architecture: iphoneos-arm
+Priority: optional
+Section: Development
+Filename: pool/main/r/re.frida.server/re.frida.server_12.10.2_iphoneos-arm.deb
+Size: 17800646
+SHA256: ddac2afb2c974521bc19bb85ea7b12e015bf00becdada317b46c4e545cff0ec2
+SHA1: ffd82700001b9b80bb4cf97e3bb20e24368bd3d8
+MD5sum: d3930070ff069f4bbaecf94acf7fc740
+Description: Inject JavaScript to explore iOS apps over USB.
+Homepage: https://www.frida.re/
+Maintainer: Ole AndrÃ© Vadla RavnÃ¥s <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Conflicts: re.frida.server32, re.frida.server64
 
+Package: re.frida.server32
+Name: Frida for 32-bit devices
+Version: 12.10.2
+Installed-Size: 18428
+Architecture: iphoneos-arm
+Priority: optional
+Section: Development
+Filename: pool/main/r/re.frida.server32/re.frida.server32_12.10.2_iphoneos-arm.deb
+Size: 9439354
+SHA256: 5dcd8b25bd8180be2fa50678d8387a8e7d9d0297c329364163b64947c5815ca3
+SHA1: 34ccdc05a7edd3d7d0cdd3de4e4fe6f5600617be
+MD5sum: d9507f471313822a7e649277be17865d
+Description: Inject JavaScript to explore iOS apps over USB.
+Homepage: https://www.frida.re/
+Maintainer: Ole AndrÃ© Vadla RavnÃ¥s <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Conflicts: re.frida.server, re.frida.server64
 
+Package: re.frida.server64
+Name: Frida for A12+ devices
+Version: 12.10.2
+Installed-Size: 42600
+Architecture: iphoneos-arm
+Priority: optional
+Section: Development
+Filename: pool/main/r/re.frida.server64/re.frida.server64_12.10.2_iphoneos-arm.deb
+Size: 17943160
+SHA256: 2bb8d0d9e6cd957b6b5cbb0c5ad83b3df12438da9203bf539647e6253d823f38
+SHA1: 89929505879099ddd0cdc3d47fc3f25460cb62b1
+MD5sum: b48ae26601e8f2bef5b425536638dc2a
+Description: Inject JavaScript to explore iOS apps over USB.
+Homepage: https://www.frida.re/
+Maintainer: Ole AndrÃ© Vadla RavnÃ¥s <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Conflicts: re.frida.server, re.frida.server32
 
 
 
